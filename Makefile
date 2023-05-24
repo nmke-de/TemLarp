@@ -1,7 +1,7 @@
 
 pdf = attributes.pdf dice.pdf
 
-build: attributes.pdf dice.pdf
+build: $(pdf)
 
 $(pdf): %.pdf: %.md
 	md2latex $^ > $*.tex
