@@ -23,14 +23,28 @@ For more information, refer to [the Political Compass Website](https://political
 
 ### Attributes
 
-Every nation has five attributes: Culture, Economy, Military, Politics and Technology
+Each nation has five attributes: Culture, Economy, Military, Politics and Technology
 
 #### Culture (CUL)
 
+**Culture** governs all cultural events, like a controversial book release or a state-mandated role-playing game.
+
 #### Economy (ECO)
+
+**Economy** represents the economic resources available to a nation. This encompasses capital (a.k.a. the means of production), labour, land and knowledge.
 
 #### Military (MIL)
 
+The **Military** attribute governs all events regarding military maneuvers, armament, the building of military bases and harbours, and war. The larger this attribute is, the stronger the nation's military.
+
+The Military attribute is always constrained by the Economy attribute. If MIL exceeds ECO, the nation suffers repercussions, with POL continually decreasing.
+
 #### Politics (POL)
 
+The **Politics** attribute represents the political stability of the nation. A low POL value is more likely to have secessionist movements and political unrest. A POL of 0 experiences a civil war or, if MIL is high, a coup d'état.
+
 #### Technology (TEC)
+
+**Technology** represents the technological progress a nation has made since the start of the game. Initially, this attribute is zero for all nations, representing the general tech level at the start of the game.
+
+Technologies may be locked behind a certain threshold. For example, if at the beginning of the roleplay, the world stands just before the invention of airplanes, a TEC of 1 may represent the availability of simple airplanes, while a TEC of 3 represents airplanes big enough for military and commercial use, a TEC of 10 airplane carriers, and a TEC of 20 space flight and rockets.
