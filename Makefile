@@ -1,5 +1,5 @@
 
-pdf = attributes.pdf dice.pdf
+pdf = attributes.pdf dice.pdf rules.pdf
 
 build: md2latex/md2latex $(pdf)
 
