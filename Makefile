@@ -15,3 +15,6 @@ md2latex:
 
 clean:
 	rm -f *.aux *.fdb_latexmk *.fls *.log *.out *.pdf *.tex
+
+clean-all: clean
+	rm -rf md2latex
