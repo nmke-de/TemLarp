@@ -1,0 +1,3 @@
+[submodule "md2latex"]
+	path = md2latex
+	url = https://github.com/nmke-de/md2latex
