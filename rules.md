@@ -37,7 +37,7 @@ Each nation has five attributes: Culture, Economy, Military, Politics and Techno
 
 The **Military** attribute governs all events regarding military maneuvers, armament, the building of military bases and harbours, and war. The larger this attribute is, the stronger the nation's military.
 
-The Military attribute is always constrained by the Economy attribute. If MIL exceeds ECO, the nation suffers repercussions, with POL continually decreasing.
+The Military attribute is always constrained by the Economy attribute. If MIL exceeds ECO, the nation suffers repercussions, with POL continually decreasing until MIL does not exceed ECO anymore.
 
 #### Politics (POL)
 
