@@ -14,6 +14,7 @@ To build the PDFs, the following dependencies need to be fulfilled:
 - Make (i.e. GNU Make)
 - C compiler
 - Libc
+- [TexInfo](https://www.gnu.org/software/texinfo/)
 
 ## Build
 
