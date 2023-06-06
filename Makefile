@@ -18,3 +18,6 @@ clean:
 
 clean-all: clean
 	rm -rf md2latex
+
+update: md2latex/md2latex
+	git submodule update --remote --recursive
