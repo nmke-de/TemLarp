@@ -27,7 +27,7 @@ Each nation has five attributes: Culture, Economy, Military, Politics and Techno
 
 #### Culture (CUL)
 
-**Culture** governs all cultural events, like a controversial book release or a state-mandated role-playing game.
+**Culture** governs all cultural events, like a controversial book release or a state-mandated role-playing game. This attribute also affects the strength of the majority or state religion (or atheism).
 
 #### Economy (ECO)
 
