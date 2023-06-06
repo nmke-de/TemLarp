@@ -13,9 +13,8 @@ To build the PDFs, the following dependencies need to be fulfilled:
 - git
 - Make (i.e. GNU Make)
 - C compiler
-- Libc (currently, only Dietlibc works)
+- Libc
 
 ## Build
 
 Type `make`.
-
