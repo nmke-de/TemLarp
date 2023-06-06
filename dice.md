@@ -6,15 +6,12 @@ A general formula for dice rolls applies: `([dice pool] * [attribute]) - [diffic
 
 Different dice pools are used for different certainties of actions. For example, holding a speech has less variation in outcome than fighting a battle with a another nation. The dice pools are, with increasing uncertainty:
 
-1. `100d1`
-2. `50d2`
-3. `25d4`
-4. `20d5`
-5. `10d10`
-6. `5d20`
-7. `4d25`
-8. `2d50`
-9. `1d100`
+1. `20d1`
+2. `10d2`
+3. `5d4`
+4. `4d5`
+5. `2d10`
+6. `1d20`
 
 ## Attribute
 
@@ -22,7 +19,7 @@ The attribute (Culture, Economy, Military, Politics and Technology) is chosen de
 
 ## Difficulty
 
-Different difficulties apply in different situations. For example, fighting a battle with a pacifist nation is less difficult than fighting a battle with a military super power. The default difficulty is 100 at difficulty level 1. The difficulty grows with the difficulty level at the rate of $n \cdot 100$, with $n$ being the difficulty level.
+Different difficulties apply in different situations. For example, fighting a battle with a pacifist nation is less difficult than fighting a battle with a military super power. The default difficulty is 20 at difficulty level 1. The difficulty grows with the difficulty level at the rate of $n \cdot 20$, with $n$ being the difficulty level.
 
 ## Outcome
 
