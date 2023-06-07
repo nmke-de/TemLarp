@@ -61,12 +61,11 @@ A general formula for dice rolls applies: $(dice~pool \cdot attribute) - difficu
 
 Different dice pools are used for different certainties of actions. For example, holding a speech has less variation in outcome than fighting a battle with a another nation. The dice pools are, with increasing uncertainty:
 
-1. `20d1`
-2. `10d2`
-3. `5d4`
-4. `4d5`
-5. `2d10`
-6. `1d20`
+1. `10d2`
+2. `5d4`
+3. `4d5`
+4. `2d10`
+5. `1d20`
 
 ### Attribute
 
