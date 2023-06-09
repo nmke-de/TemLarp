@@ -61,11 +61,11 @@ A general formula for dice rolls applies: $(dice~pool \cdot attribute) - difficu
 
 Different dice pools are used for different certainties of actions. For example, holding a speech has less variation in outcome than fighting a battle with a another nation. The dice pools are, with increasing uncertainty:
 
-1. `10d2`
-2. `5d4`
-3. `4d5`
-4. `2d10`
-5. `1d20`
+1. `10d2` is used if the outcome seems very certain, and almost nothing can go wrong.
+2. `5d4` is the default dice pool.
+3. `4d5` should be used if the situation is complicated, but the consequences will be only internal to the nation.
+4. `2d10` is used in a diplomatic crisis or for actions which could increase international tensions.
+5. `1d20` is always used in a war or warlike situation.
 
 ### Attribute
 
