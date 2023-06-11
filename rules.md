@@ -83,7 +83,7 @@ If the situation is an action against or in competition to another player, the d
 
 ### Outcome
 
-The action is a success, if the above formula results in a value greater than zero. A zero or lower is interpreted as a failure. Furthermore, if the formula results in a value higher than half of the difficulty (not the difficulty level), the player can choose to raise the affecting attribute by 1.
+The action is a success, if the above formula results in a value greater than zero. A zero or lower is interpreted as a failure. Furthermore, if the formula results in a value higher than half of the difficulty (not the difficulty level), the player can choose to raise the affecting attribute by 1. The latter only applies to rolls with `2d10` or `1d20` as dice pools.
 
 ## Raising attributes
 
@@ -96,7 +96,7 @@ Raising an attribute is only possible if CUL is above zero. The only exception t
 
 ### Rolling high on low certainty dice rolls
 
-On a dice roll, if the formula of the dice roll results in a value higher than half of the difficulty (not the difficulty level), the player can choose to raise the affecting attribute by 1.
+On a dice roll, if the formula of the dice roll results in a value higher than half of the difficulty (not the difficulty level), the player can choose to raise the affecting attribute by 1. This only applies to rolls with `2d10` or `1d20` as dice pools.
 
 ### Sacrificing other attributes
 
