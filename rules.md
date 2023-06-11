@@ -83,4 +83,21 @@ If the situation is an action against or in competition to another player, the d
 
 ### Outcome
 
-The action is a success, if the above formula results in a value greater than zero. A zero or lower is interpreted as a failure.
+The action is a success, if the above formula results in a value greater than zero. A zero or lower is interpreted as a failure. Furthermore, if the formula results in a value higher than half of the difficulty (not the difficulty level), the player can choose to raise the affecting attribute by 1.
+
+## Raising attributes
+
+There are two ways to increase an attribute (Culture, Economy, Military, Politics and Technology):
+
+- Rolling high on low certainty dice rolls
+- Sacrificing other attributes
+
+Raising an attribute is only possible if CUL is above zero. The only exception to this is raising CUL itself.
+
+### Rolling high on low certainty dice rolls
+
+On a dice roll, if the formula of the dice roll results in a value higher than half of the difficulty (not the difficulty level), the player can choose to raise the affecting attribute by 1.
+
+### Sacrificing other attributes
+
+At any time, the player can choose to *decrease* four attributes by 1 to *raise* the remaining attribute by 1. This reflects the sacrifices made in other fields to rush progress in one field.
