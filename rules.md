@@ -29,9 +29,13 @@ Each nation has five attributes: Culture, Economy, Military, Politics and Techno
 
 **Culture** governs all cultural events, like a controversial book release or a state-mandated role-playing game. This attribute also affects the strength of the majority or state religion (or atheism).
 
+If CUL plummets to zero, the people of the nation loose their motivation to work, disabling any attribute other than CUL to be raised, until this changes. Should ECO be zero too, the nation will cease to exist due to lack of social cohesion.
+
 #### Economy (ECO)
 
 **Economy** represents the economic resources available to a nation. This encompasses capital (a.k.a. the means of production), labour, land and knowledge.
+
+If both CUL and ECO are zero, the nation will cease to exist.
 
 #### Military (MIL)
 
