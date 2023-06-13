@@ -101,3 +101,43 @@ On a dice roll, if the formula of the dice roll results in a value higher than h
 ### Sacrificing other attributes
 
 At any time, the player can choose to *decrease* four attributes by 1 to *raise* the remaining attribute by 1. This reflects the sacrifices made in other fields to rush progress in one field.
+
+## Events
+
+Events can generally be divided in two categories: Deliberate player decisions and things that happen when an attribute drops to zero.
+
+Deliberate player decision events are:
+
+- Economic Sanctions
+- Propaganda Campaign
+- Wars
+
+Things that happen when an attribute drops to zero are:
+
+- A nation ceases to exist.
+- Civil Wars
+- Coup d'État
+- Demotivated Nation
+
+### A nation ceases to exist.
+
+Once both CUL and ECO of a nation drop to zero, a nation ceases to exist. A combination of lack of goods and lack of something to believe in lead to the ultimate downfall of the nation. This is an alternative way to archieve game over, the other being conquest by a foreign nation.
+
+### Civil War
+
+Once POL drops to zero, if CUL is higher or equal to MIL, a civil war breaks out in the nation, which is now divided into no less than 2 warring parties. CUL, ECO and MIL are evenly divided among the warring parties, with all values rounded down. Furthermore, each warring party receives 1 POL and inherits the TEC of the former nation. The map, if any, of the nation is divided randomly among the warring parties.
+
+The player of the former nation can decide to play as one of the warring parties. The remaining warring parties are distributed among new players or become NPCs. All warring parties are considered nations in their own right from this point on, being in war with each other.
+
+### Coup d'État
+
+Once POL drops to zero, if CUL is lower than MIL, the player can decide to let the nation experience a coup d'état by the military instead of a civil war.
+
+### Demotivated Nation
+
+### Economic Sanction
+
+### Propaganda Campaign
+
+### War
+
