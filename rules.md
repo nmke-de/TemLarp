@@ -158,4 +158,6 @@ After that, the player who initiated the campaign rolls $2d10 \cdot POL - 2d10 \
 
 ### War
 
+At any time, the player of a nation can declare war on another nation, either formally or by initiating a military attack. From this point on, until a peace agreement has been made, both nations may battle each other.
 
+To battle another army, the attacking player shall declare how much MIL is deployed in the battle, as well as which area is attacked, if applicable. The defending player also declares how much MIL is deployed for defense in the battle. After that, the attacking player rolls $1d20 \cdot deployed~ MIL - 1d20 \cdot other~ player's~ deployed~ MIL$. If the attacking player succeeds, the attacking nation occupied the attacked area, and the defending player looses all deployed MIL. Otherwise, the attacking player looses all deployed MIL. Both nations also loose 1 ECO, reflecting the costs of the war.
