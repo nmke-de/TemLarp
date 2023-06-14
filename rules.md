@@ -104,7 +104,7 @@ At any time, the player can choose to *decrease* four attributes by 1 to *raise*
 
 ## Events
 
-Events can generally be divided in two categories: Deliberate player decisions and things that happen when an attribute drops to zero.
+Events can generally be divided in two categories: Deliberate player decisions and things that happen when an attribute drops to zero (or is otherwise too low).
 
 Deliberate player decision events are:
 
@@ -112,12 +112,13 @@ Deliberate player decision events are:
 - Propaganda Campaign
 - Wars
 
-Things that happen when an attribute drops to zero are:
+Things that happen when an attribute drops to zero (or too low) are:
 
 - A nation ceases to exist.
 - Civil Wars
 - Coup d'État
 - Demotivated Nation
+- High Military Spending
 
 ### A nation ceases to exist.
 
@@ -131,13 +132,30 @@ The player of the former nation can decide to play as one of the warring parties
 
 ### Coup d'État
 
-Once POL drops to zero, if CUL is lower than MIL, the player can decide to let the nation experience a coup d'état by the military instead of a civil war.
+Once POL drops to zero, if CUL is lower than MIL, the player *can* decide to let the nation experience a coup d'état by the military instead of a civil war. CUL drops to zero, while POL is raised to 1. The player is also supposed to roleplay on this change.
+
+Since CUL drops to zero, the nation will experience demotivation. It may also lead to the nation ceasing to exist, if ECO is zero too.
 
 ### Demotivated Nation
 
+Once CUL drops to zero and the economy is still running somehow, the people of the nation have nothing to cling to or believe in. They are therefore unmotivated to work, making it impossible to raise any attribute other than CUL. Attributes can still decrease though.
+
 ### Economic Sanction
+
+At any time, the the player of a nation can decide to put economic sanctions on another nation. The sanctioning nation suffers a penalty of -1 to ECO, which stacks with other sanctions. The player then rolls $2d10 \cdot ECO - 2d10 \cdot other~ player's~ ECO$. If this roll succeeds, the difficulty leve for every roll on ECO for the sanctioned nation is increased by 1 (i.e. difficulty is increased by 20). These effects only last as long as the sanctions are enforced.
+
+Should a sanctioning nation cancel its sanctions immediately or almost immediately without an obvious reason, POL will drop by 2 instead, since unclear policy making confuses the populace.
+
+### High Military Spending
+
+Once a nation's MIL exeeds its ECO, its POL will regularly drop by 2 until this changes. After all, if too much funding is diverted is to the military, other domains of the state like infrastructure and education will suffer, leading to unrest.
 
 ### Propaganda Campaign
 
+At any time, the player of a nation can decide to weaken the stability of another nation by funding a propaganda campaign, a subversive psyops or something similar in that other nation. To do so, the nation's ECO is reduced by 1 to fund the operation.
+
+After that, the player who initiated the campaign rolls $2d10 \cdot POL - 2d10 \cdot other~ player's~ POL$. If this was a success, the targeted nation's POL and CUL are reduced by 1 each. Otherwise, the people of the initiating nation get to know about illicit actions of their government, reducing POL and CUL by 1 in their nation.
+
 ### War
+
 
