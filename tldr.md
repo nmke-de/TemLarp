@@ -31,6 +31,9 @@
 11. If your CUL (but not ECO) is zero, you can't raise any attribute other than CUL.
 12. If your MIL is higher than ECO, your POL drops by 2 each turn.
 13. PvP rules
-   1. Economic Sanctions: $2d10 \cdot ECO - 2d10 \cdot other~ player's~ ECO$. -1 ECO for the attacker, -1 ECO for the defender if successful.
-   2. Propaganda Campaign: $2d10 \cdot POL - 2d10 \cdot other~ player's~ POL$. -1 ECO for the attacker, -1 POL and -1 CUL for the defender is successful.
-   3. War: Each player deploys some MIL. $1d20 \cdot deployed~ MIL - 1d20 \cdot other~ player's~ deployed~ MIL$. Loosing player loose all deployed MIL and possibly some ground.
+    1.  Economic Sanctions: $2d10 \cdot ECO - 2d10 \cdot other~ player's~ ECO$. -1 ECO for the attacker, -1 ECO for the defender if successful.
+    2.  Propaganda Campaign: $2d10 \cdot POL - 2d10 \cdot other~ player's~ POL$. -1 ECO for the attacker, -1 POL and -1 CUL for the defender is successful.
+    3.  War:
+        1. Each player deploys some MIL.
+        2. $1d20 \cdot deployed~ MIL - 1d20 \cdot other~ player's~ deployed~ MIL$.
+        3. Loosing player loose all deployed MIL and possibly some ground.
