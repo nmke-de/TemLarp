@@ -27,7 +27,7 @@
    2.  Divide CUL, ECO and MIL equally among these nations. Round down.
    3.  Each nation receives 1 POL and all TEC like your former nation.
 10. If your POL is zero and your CUL lower than MIL, your nation experiences a coup d'état.
-   1. Your CUL becomes zero. Your POL becomes 1.
+    1. Your CUL becomes zero. Your POL becomes 1.
 11. If your CUL (but not ECO) is zero, you can't raise any attribute other than CUL.
 12. If your MIL is higher than ECO, your POL drops by 2 each turn.
 13. PvP rules
