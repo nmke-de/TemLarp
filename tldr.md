@@ -17,7 +17,7 @@
    5. `1d20` is always used in a war or warlike situation.
 6. $difficulty$ is determined like this:
    1. Against another player: $(dice~ pool \cdot other player's attribute)$
-   2. Otherwise: $appropriate~ difficulty~ level \cdot 20$ <!-- TODO -->
+   2. Otherwise: $appropriate~ difficulty~ level \cdot 20$
 7. Raise attributes these two ways:
    1. Succeed on a roll with dice pool 4 or 5. Raise the corresponding attribute by 1.
    2. Reduce 4 attributes by 1 to raise the remaining attribute by 1.
