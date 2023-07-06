@@ -37,3 +37,4 @@
         1. Each player deploys some MIL.
         2. $1d20 \cdot deployed~ MIL - 1d20 \cdot other~ player's~ deployed~ MIL$.
         3. Loosing player loose all deployed MIL and possibly some ground.
+        4. Both players loose 1 ECO, reflecting the costs of war.
