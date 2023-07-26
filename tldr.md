@@ -19,7 +19,7 @@
    1. Against another player: $(dice~ pool \cdot other player's attribute)$
    2. Otherwise: $appropriate~ difficulty~ level \cdot 20$
 7. Raise attributes these two ways:
-   1. Succeed on a roll with dice pool `2d10` or `1d20`. Raise the corresponding attribute by 1.
+   1. Succeed on a roll with dice pool `4d5`, `2d10` or `1d20`. Raise the corresponding attribute by 1.
    2. Reduce 4 attributes by 1 to raise the remaining attribute by 1.
 8. If your CUL and ECO are zero, your nation ceases to exist.
 9. If your POL is zero and your CUL higher than or equal to MIL, your nation experiences a civil war.
